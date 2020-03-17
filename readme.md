@@ -36,21 +36,6 @@ Be sure to select "Realtime database" as as your database type inside Firebase. 
 
 Firebase by default only allows logins from localhost or the Firebase website. You'll need to add your deploy URL to the Authorized Domains in the Sign-in method area of your Firebase console.
 
-## Changes In the 2018 RE-Record
-
-In March 2018 I re-recorded this course. Here are the things that I've updated.
-
-* Upgrade to React Router 4 Final API
-* Use React 16.3
-* Move to external PropTypes Package
-* Use React's new Refs API, remove function refs
-* Remove all use of constructors and super() - use class properties instead
-* Better explain binding, use of `this` and component instances
-* Moved from React-addons-css-transition-group to react-transition-group and upgraded from 1.x to 2.x
-* Use official Firebase package for Auth as re-base is now only for data binding
-* Move promise based code to async/await
-* Show how to return multiple elements with React.Fragment
-
 ## htaccess
 
 Here is the .htaccess file we use in the apache deployment video
